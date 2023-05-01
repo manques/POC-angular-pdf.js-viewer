@@ -27,7 +27,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/pdfjs-dist/build/pdf.worker.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +96,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f217776a-22bf-45aa-9fdc-690ff1d6e2f8"
   }
 }
